@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap");
+
+body {
+  background-image: url("/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  float: right;
+  margin-right: 100px;
+}
+
+h1 {
+  color: #f3ef08;
+  font-family: "Laila", serif;
+  margin-block-end: 0em;
+}
+
+h5 {
+  margin-block-start: 0.6rem;
+  color: #f3ef08;
+}
+
+input {
+  padding: 1rem;
+  border: solid #f3ef08 0.3rem;
+  background-color: #fbe6d3;
+  font-size: larger;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.9rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.12rem;
+  text-shadow: #130b52 0.2px 0 0.3px;
+  /* text-shadow: 0.1px 0.15px 1.1px #130b52; */
+}
+
+span {
+  padding: 1rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+  margin: 2rem 1rem;
+}
+
+/* container */
+
+.containerCenter {
+  max-width: 600px;
+  margin: auto;
+  overflow-y: scroll;
+  height: 300px;
+}
